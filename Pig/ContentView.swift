@@ -35,7 +35,6 @@ struct ContentView: View {
                             }
                         }
                         .buttonStyle(CustomButtonStyle())
-                        
                         Button("Hold") {
                             gameScore += turnScore
                             endTurn()
